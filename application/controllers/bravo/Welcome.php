@@ -10,7 +10,7 @@ class Welcome extends Application
 	}
 
 	/**
-	 * Homepage for our app
+	 * Homepage for our app test
 	 */
 	public function index()
 	{

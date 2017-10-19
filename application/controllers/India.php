@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Golf extends Application
+class India extends CI_Controller
 {
 
 	function __construct()
@@ -14,7 +14,10 @@ class Golf extends Application
 	 */
 	public function index()
 	{
-		$this->show(6);
+		$source = '../../public/pix/Barf.jpg'; 
+                header("Content-type: image/jpg"); 
+                header('Content-Disposition: inline');
+                readfile($source); // dish it
 	}
 
 }
